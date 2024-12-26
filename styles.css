@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(212, 45%, 84%);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .qr-code {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .content h1 {
+    font-size: 18px;
+    color: hsl(218, 44%, 22%);
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
